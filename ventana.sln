@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ventana", "ventana\ventana.csproj", "{9F97DF41-14A9-45CA-974A-83D8E5E57EDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{ECC387DB-2808-4DC8-BFE7-06FFE474015C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F97DF41-14A9-45CA-974A-83D8E5E57EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F97DF41-14A9-45CA-974A-83D8E5E57EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F97DF41-14A9-45CA-974A-83D8E5E57EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F97DF41-14A9-45CA-974A-83D8E5E57EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F111257-E8A2-47DA-AA6E-5C921C102037}
+	EndGlobalSection
+EndGlobal
