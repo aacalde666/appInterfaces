@@ -31,29 +31,6 @@ namespace ventana
         // Método para comprobar la conexión
         public void ComprobacionConexion()
         {
-            try
-            {
-                var client = new MongoClient("mongodb://aacal.ddns.net"); // Usa la URL correcta de tu MongoDB
-                var database = client.GetDatabase("interfacesapp"); // Nombre de la base de datos
-                var collection = database.GetCollection<BsonDocument>("videojuegos"); // Nombre de la colección
-
-                // Verificar la conexión con un ping
-                database.RunCommand<BsonDocument>(new BsonDocument("ping", 1));
-                MessageBox.Show("Conexión exitosa a MongoDB", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // Consultar todos los documentos en la colección
-                var videojuegos = collection.Find(new BsonDocument()).ToList();
-
-                // Mostrar los resultados
-                foreach (var videojuego in videojuegos)
-                {
-                    MessageBox.Show(videojuego.ToString());
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al conectar a MongoDB: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
             using (MySqlConnection connection = new MySqlConnection(ConnectionString()))
             {
                 try
