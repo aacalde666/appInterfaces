@@ -24,7 +24,7 @@ namespace ventana
         // Método para poner tu server(localhost o la ip donde este tu BBDD),BBDD,el usuario asignado y la contraseña
         public string ConnectionString()
         {
-            string connectionString = "Server=aacal.ddns.net;Database=interfacesapp;Uid=root;Pwd=1234;";
+            string connectionString = "Server=localhost;Database=interfacesapp;Uid=root;Pwd=1234;";
             return connectionString;
         }
 
