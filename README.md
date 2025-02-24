@@ -67,4 +67,4 @@ Este proyecto se distribuye bajo la **Licencia MIT**. Consulta el archivo `LICEN
 
 ---  
 
-📩 **Contacto:** Para dudas o sugerencias, puedes escribir a [Tu Correo Aquí].  
+📩 **Contacto:** Para dudas o sugerencias, puedes escribir a [aacal666.social@gmail.com].  
