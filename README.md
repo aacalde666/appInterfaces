@@ -63,7 +63,7 @@ La aplicación utiliza una base de datos MySQL estructurada en varias tablas pri
 
 ## 📜 Licencia  
 
-Este proyecto se distribuye bajo la **Licencia MIT**. Consulta el archivo `LICENSE` para más detalles.  
+Este proyecto se distribuye bajo la [Licencia MIT](LICENSE). Consulta el archivo para más detalles.   
 
 ---  
 
